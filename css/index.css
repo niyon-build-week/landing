@@ -227,6 +227,19 @@ header .hero-text {
 header .get-started {
   text-align: center;
 }
+.footer {
+  padding: 3.5rem 25rem;
+}
+@media (max-width: 550px) {
+  .footer {
+    padding: 2rem;
+    text-align: center;
+  }
+}
+.footer p,
+.footer a {
+  font-size: 1rem;
+}
 .home .features {
   max-width: 75%;
   margin: 0 auto;
@@ -314,10 +327,27 @@ header .get-started {
 }
 .home .made-in-lambda {
   text-align: center;
-  margin: 10rem 0;
+  margin: 10rem 0 5rem 0;
 }
 .home .made-in-lambda img {
   margin: 2rem;
   width: 15rem;
   border-radius: 10rem;
+}
+.team {
+  background-color: #262b3a;
+  padding: 2rem 0;
+  color: white;
+  min-height: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.team p {
+  font-size: 3.5rem;
+}
+.team img {
+  max-width: 30rem;
+  margin: 3rem;
 }
