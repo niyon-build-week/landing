@@ -7,20 +7,34 @@
     text-align: center;
 
     p {
-      margin: 2em;
+      margin: 2em 0;
     }
 
     .features-container {
       display: flex;
       justify-content: space-around;
+
+      @media @mobile {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
     }
 
     .feature {
       max-width: 33.33%;
 
+      @media @mobile {
+        max-width: 100%;
+      }
+
       img {
         max-width: 50%;
         height: auto;
+
+        @media @mobile {
+          max-width: 75%;
+        }
       }
     }
   }

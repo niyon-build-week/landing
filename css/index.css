@@ -227,16 +227,33 @@ header .get-started {
   text-align: center;
 }
 .home .features p {
-  margin: 2em;
+  margin: 2em 0;
 }
 .home .features .features-container {
   display: flex;
   justify-content: space-around;
 }
+@media (max-width: 550px) {
+  .home .features .features-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
 .home .features .feature {
   max-width: 33.33%;
+}
+@media (max-width: 550px) {
+  .home .features .feature {
+    max-width: 100%;
+  }
 }
 .home .features .feature img {
   max-width: 50%;
   height: auto;
+}
+@media (max-width: 550px) {
+  .home .features .feature img {
+    max-width: 75%;
+  }
 }
