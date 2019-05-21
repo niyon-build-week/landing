@@ -37,5 +37,57 @@
         }
       }
     }
-  }
+  }// features
+
+  .big-features {
+    .big-feature {
+      margin: 3rem 0;
+      display: flex;
+      justify-content: space-between;
+
+      @media @mobile {
+        margin: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        &.first {
+          flex-direction: column-reverse;
+        }
+      }
+  
+      .left-element {
+        max-width: 45%;
+
+        @media @mobile {
+          max-width: 90%;
+        }
+      }
+      
+      .right-element {
+        max-width: 45%;
+        @media @mobile {
+          max-width: 90%;
+        }
+      }
+  
+      .image {
+        text-align: center;
+      }
+
+      .text {
+        padding-top: 10rem;
+
+        @media @mobile {
+          padding: 2rem;
+        }
+      }
+  
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+  }// big-features
+
 }// home
