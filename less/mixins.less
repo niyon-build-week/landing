@@ -5,16 +5,10 @@
   border-bottom-width: 1px;
 }
 
-.btn {
-  font-family: 'Roboto', sans-serif;
-  padding: 2rem 2.25rem;
-  margin: 1rem;
-  font-size: 1.75rem;
-  font-weight: bold;
-  border-radius: 15rem;
-  background-color: @green;
-  color: @darkBlue;
-  text-align: center;
-  box-shadow: inset 2px -7px 11px rgba(80, 92, 51, 0.17);
-  cursor: pointer;
+.disable-select() {
+  user-select: none; /* supported by Chrome and Opera */
+ -webkit-user-select: none; /* Safari */
+ -khtml-user-select: none; /* Konqueror HTML */
+ -moz-user-select: none; /* Firefox */
+ -ms-user-select: none; /* Internet Explorer/Edge */
 }
