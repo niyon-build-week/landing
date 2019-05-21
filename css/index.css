@@ -388,8 +388,9 @@ header .get-started {
   }
 }
 .team-page .team .team-person img {
-  max-width: 50%;
+  max-width: 75%;
   height: auto;
+  border-radius: 10rem;
 }
 @media (max-width: 550px) {
   .team-page .team .team-person img {
