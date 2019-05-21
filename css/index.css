@@ -210,7 +210,7 @@ header .header-graphic {
   padding: 20px;
 }
 header .header-graphic img {
-  max-height: 100%;
+  max-height: 200px;
 }
 header .hero-text {
   text-align: center;
