@@ -1,0 +1,399 @@
+.btn {
+  font-family: 'Roboto', sans-serif;
+  padding: 2rem 2.25rem;
+  margin: 1rem;
+  font-size: 1.75rem;
+  font-weight: bold;
+  border-radius: 15rem;
+  background-color: #3beb95;
+  color: #262b3a;
+  text-align: center;
+  box-shadow: inset 2px -7px 11px rgba(80, 92, 51, 0.17);
+  cursor: pointer;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  margin: 2em 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f2f2f2;
+  color: #262b3a;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Source Serif Pro', Georgia, Times, serif;
+}
+h1 {
+  font-size: 6.5rem;
+}
+h2 {
+  font-size: 3.2rem;
+  padding-bottom: 10px;
+}
+h4 {
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
+hr {
+  margin: 2.5rem 0;
+  border: 0;
+  border-bottom-color: #abb2c9;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+p {
+  line-height: 1.5;
+  font-size: 1.6rem;
+  padding-bottom: 10px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  line-height: 1.5;
+  font-size: 1.6rem;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.container {
+  max-width: 1080px;
+  width: 100%;
+  margin: 0 auto;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  justify-items: center;
+  justify-content: center;
+  padding-bottom: 30px;
+  border-bottom-color: #abb2c9;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+header .logo,
+header a {
+  color: #262b3a;
+  font-family: 'Roboto', sans-serif;
+  font-size: 5rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+}
+header .header-graphic {
+  text-align: center;
+  max-height: 250px;
+  padding: 20px;
+}
+header .header-graphic img {
+  max-height: 200px;
+}
+header .hero-text {
+  text-align: center;
+  padding: 20px;
+}
+header .get-started {
+  display: flex;
+  justify-content: center;
+}
+.footer {
+  padding: 3.5rem 25rem;
+}
+@media (max-width: 550px) {
+  .footer {
+    padding: 2rem;
+    text-align: center;
+  }
+}
+.footer p,
+.footer a {
+  font-size: 1rem;
+}
+.home .features {
+  max-width: 75%;
+  margin: 0 auto;
+  color: #4a5472;
+  padding: 5rem 0;
+  text-align: center;
+}
+.home .features p {
+  margin: 2rem 0;
+}
+.home .features .features-container {
+  display: flex;
+  justify-content: space-around;
+}
+@media (max-width: 550px) {
+  .home .features .features-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.home .features .feature {
+  max-width: 33.33%;
+}
+@media (max-width: 550px) {
+  .home .features .feature {
+    max-width: 100%;
+  }
+}
+.home .features .feature img {
+  max-width: 50%;
+  height: auto;
+}
+@media (max-width: 550px) {
+  .home .features .feature img {
+    max-width: 75%;
+  }
+}
+.home .big-features .big-feature {
+  margin: 3rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 550px) {
+  .home .big-features .big-feature {
+    margin: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .home .big-features .big-feature.first {
+    flex-direction: column-reverse;
+  }
+}
+.home .big-features .big-feature .left-element {
+  max-width: 45%;
+}
+@media (max-width: 550px) {
+  .home .big-features .big-feature .left-element {
+    max-width: 90%;
+  }
+}
+.home .big-features .big-feature .right-element {
+  max-width: 45%;
+}
+@media (max-width: 550px) {
+  .home .big-features .big-feature .right-element {
+    max-width: 90%;
+  }
+}
+.home .big-features .big-feature .image {
+  text-align: center;
+}
+.home .big-features .big-feature .text {
+  padding-top: 10rem;
+}
+@media (max-width: 550px) {
+  .home .big-features .big-feature .text {
+    padding: 2rem;
+  }
+}
+.home .big-features .big-feature img {
+  max-width: 100%;
+  height: auto;
+}
+.home .made-in-lambda {
+  text-align: center;
+  margin: 10rem 0 5rem 0;
+}
+.home .made-in-lambda img {
+  margin: 2rem;
+  width: 15rem;
+  border-radius: 10rem;
+}
+.meet-team {
+  background-color: #262b3a;
+  padding: 2rem 0;
+  color: white;
+  min-height: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.meet-team p {
+  font-size: 3.5rem;
+}
+.meet-team img {
+  max-width: 30rem;
+  margin: 3rem;
+}
+.team-page .team {
+  max-width: 75%;
+  margin: 0 auto;
+  color: #4a5472;
+  padding: 5rem 0;
+  text-align: center;
+}
+.team-page .team p {
+  margin: 2rem 0;
+}
+.team-page .team .team-container {
+  display: flex;
+  justify-content: space-around;
+}
+@media (max-width: 550px) {
+  .team-page .team .team-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.team-page .team .team-person {
+  max-width: 33.33%;
+}
+@media (max-width: 550px) {
+  .team-page .team .team-person {
+    max-width: 100%;
+  }
+}
+.team-page .team .team-person img {
+  max-width: 75%;
+  height: auto;
+  border-radius: 10rem;
+}
+@media (max-width: 550px) {
+  .team-page .team .team-person img {
+    max-width: 75%;
+  }
+}

@@ -7,11 +7,18 @@ html {
 }
 
 html, body {
-  font-family: 'Roboto', sans-serif;
+  margin: 2em 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: @bgColor;
+  color: @textColor;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Source Serif Pro', Georgia, Times, serif;
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 6.5rem;
 }
 
 h2 {
@@ -22,6 +29,12 @@ h2 {
 h4 {
   font-size: 2.5rem;
   padding-bottom: 10px;
+}
+
+hr {
+  margin: 2.5rem 0;
+  border: 0;
+  .border-bottom();
 }
 
 p {
@@ -43,7 +56,7 @@ img {
 }
 
 .container {
-  max-width: 800px;
+  max-width: 1080px;
   width: 100%;
   margin: 0 auto;
 }
