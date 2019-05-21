@@ -1,3 +1,12 @@
+.btn {
+  font-family: 'Roboto', sans-serif;
+  padding: 15px;
+  margin: 15px;
+  font-size: 2em;
+  border-radius: 10px;
+  background-color: #1e5acb;
+  color: white;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -134,11 +143,20 @@ html {
 }
 html,
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: Montserrat, Avenir, "Avenir Next", Trebuchet, Verdana, sans-serif;
   background-color: #f2f2f2;
+  color: #262b3a;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Source Serif Pro", Georgia, Times, serif;
 }
 h1 {
-  font-size: 4rem;
+  font-size: 6.5rem;
 }
 h2 {
   font-size: 3.2rem;
@@ -167,4 +185,37 @@ img {
   max-width: 1080px;
   width: 100%;
   margin: 0 auto;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  justify-items: center;
+  justify-content: center;
+  padding-bottom: 30px;
+  border-bottom-color: #abb2c9;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+header .logo {
+  font-family: 'Roboto', sans-serif;
+  font-size: 5em;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+}
+header .header-graphic {
+  text-align: center;
+  max-height: 250px;
+  padding: 20px;
+}
+header .header-graphic img {
+  max-height: 100%;
+}
+header .hero-text {
+  text-align: center;
+  padding: 20px;
+}
+header .get-started {
+  text-align: center;
 }
