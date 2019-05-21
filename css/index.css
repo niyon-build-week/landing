@@ -1,7 +1,7 @@
 .btn {
   font-family: 'Roboto', sans-serif;
-  padding: 15px;
-  margin: 15px;
+  padding: 1em;
+  margin: 1em;
   font-size: 2em;
   border-radius: 10px;
   background-color: #1e5acb;
@@ -143,7 +143,7 @@ html {
 }
 html,
 body {
-  font-family: Montserrat, Avenir, "Avenir Next", Trebuchet, Verdana, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   background-color: #f2f2f2;
   color: #262b3a;
 }
@@ -153,7 +153,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Source Serif Pro", Georgia, Times, serif;
+  font-family: 'Source Serif Pro', Georgia, Times, serif;
 }
 h1 {
   font-size: 6.5rem;
@@ -218,4 +218,25 @@ header .hero-text {
 }
 header .get-started {
   text-align: center;
+}
+.home .features {
+  max-width: 75%;
+  margin: 0 auto;
+  color: #4a5472;
+  padding: 5em 0;
+  text-align: center;
+}
+.home .features p {
+  margin: 2em;
+}
+.home .features .features-container {
+  display: flex;
+  justify-content: space-around;
+}
+.home .features .feature {
+  max-width: 33.33%;
+}
+.home .features .feature img {
+  max-width: 50%;
+  height: auto;
 }
