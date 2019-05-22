@@ -327,6 +327,11 @@ header .get-started {
     max-width: 75%;
   }
 }
+.home .big-features .quote {
+  font-size: 2rem;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
 .home .big-features .big-feature {
   margin: 3rem 0;
   display: flex;
