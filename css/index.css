@@ -327,6 +327,11 @@ header .get-started {
     max-width: 75%;
   }
 }
+@media (max-width: 800px) {
+  .home .big-features {
+    margin: 0 2.5rem;
+  }
+}
 .home .big-features .quote {
   font-size: 2rem;
   font-style: italic;
