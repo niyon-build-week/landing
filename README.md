@@ -1,4 +1,6 @@
 # Landing page for Niyon
+[Deployed project](https://www.daquinons.com/host/niyon/)
+
 Project for Build Week at Lambda School.
 
 * Technologies:
